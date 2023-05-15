@@ -2,10 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:padding="16dp"
     android:gravity="center_horizontal">
 
+    <Spinner
+        android:id="@+id/spinner_idioma"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_margin="30dp"
+        android:background="#8864EC"
+        android:contentDescription="Adicionar idioma"
+        android:dropDownSelector="@color/purple_500"
+        android:scrollbarThumbHorizontal="@color/teal_200"
+        android:spinnerMode="dropdown"
+        android:visibility="visible"
+        tools:visibility="visible" />
     <ListView
         android:id="@+id/task_list_view"
         android:layout_width="match_parent"
@@ -18,6 +31,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
         android:layout_margin="16dp"
-        android:src="@drawable/ic_add"/>
+        android:src="@drawable/ic_add"
+        android:contentDescription="Adicionar Tarefa"/>
 
 </LinearLayout>

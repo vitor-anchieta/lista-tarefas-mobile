@@ -10,12 +10,12 @@
         android:id="@+id/task_edit_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite a tarefa" />
+        android:hint="@string/task_text_edit" />
 
     <Button
         android:id="@+id/save_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Salvar" />
+        android:text="@string/task_save_button" />
 
 </LinearLayout>

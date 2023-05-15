@@ -1,3 +1,13 @@
 <resources>
-    <string name="app_name">ToDoListApp</string>
+    <string name="app_name">Lista de Tarefas</string>
+    <string name="task_text_edit">Digite a tarefa</string>
+    <string name="task_save_button">Salvar</string>
+
+    <string name="idioma_selecionar">Selecione um Idioma</string>
+
+    <string-array name="listar_linguas">
+        <item>Padrão</item>
+        <item>Português</item>
+        <item>Inglês</item>
+    </string-array>
 </resources>

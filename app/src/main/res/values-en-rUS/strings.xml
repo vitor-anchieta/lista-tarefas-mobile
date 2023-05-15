@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task List</string>
+    <string name="task_text_edit">Enter the task</string>
+    <string name="task_save_button">Save</string>
+
+    <string name="idioma_selecionar">Select a Language</string>
+
+    <string-array name="listar_linguas">
+        <item>Default</item>
+        <item>Portuguese-BR</item>
+        <item>English</item>
+    </string-array>
+</resources>

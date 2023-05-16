@@ -14,7 +14,7 @@ public class TaskDbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onCreate(SQLiteDatabase db) {
-        // Create the tasks table
+
         String createTable = "CREATE TABLE " + TaskContract.TaskEntry.TABLE_NAME + " ("
                 + TaskContract.TaskEntry._ID + " INTEGER PRIMARY KEY AUTOINCREMENT, "
                 + TaskContract.TaskEntry.COLUMN_TASK_NAME + " TEXT NOT NULL, "
@@ -25,6 +25,6 @@ public class TaskDbHelper extends SQLiteOpenHelper {
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        // Implement the database upgrade logic here, if needed
+
     }
 }
